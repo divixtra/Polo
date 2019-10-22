@@ -1,0 +1,77 @@
+/* 
+
+1. Add your custom Css styles below
+2. Place the this code in your template: 
+
+ <link href="css/custom.css" rel="stylesheet">
+
+*/
+
+.links a,
+footer .links a {
+	border-left: 1px solid #e1e1e1;
+	color: #666;
+	display: inline-block;
+	padding: 0 10px;
+	text-decoration: none;
+}
+.links a:hover,
+footer .links a:hover {
+	color: #2980b9;
+}
+.links a:first-child {
+	border-left: 0 none;
+}
+
+
+#logo {
+	display: block;
+}
+
+.doc-header {
+	background-color: #fff;
+	border-bottom: 1px solid #eee;
+	left: 0;
+	margin: 0 auto;
+	top: 0;
+	transition: all 1.3s linear 0s;
+	width: 100%;
+	z-index: 10000;
+    
+    padding: 1em 0 1em 0;
+}
+
+
+#header-wrapper {
+	border-bottom: 1px solid #eee;
+    padding: 40px 0;
+}
+
+
+
+.syntaxhighlighter {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.syntaxhighlighter .toolbar {
+	display: none;
+}
+
+.folder-tree {
+padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.folder-tree li:before {
+  background-image: url("../images/folder.png");
+  background-repeat: no-repeat;
+  content: " ";
+  height: 22px;
+  margin-left: -23px;
+  margin-top: 6px;
+  position: absolute;
+  width: 24px;
+}
